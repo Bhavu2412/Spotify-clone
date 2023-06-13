@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(34, 34, 34);
+    font-family: 'Nunito', sans-serif;
+    color: white;
+    font-size: 15px;
+    
+}
+img{
+    background-color: black;
+    padding-left: 20px;
+}
+nav{
+    top: 0;
+    width: 100vw;
+    position: fixed;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    height: 65px;
+    align-content: center;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+}
+.nalo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    align-items: center;
+}
+button{
+    padding-right: 20px;
+    font-family: 'Nunito', sans-serif;
+    color: white;
+    background-color: black;
+    border: 2px solid black;
+    font-size: 15px;
+    text-align: center;
+    cursor: pointer;
+}
+#Login{
+    padding-left: 20px;
+    background-color: white;
+    color: black;
+    border: white 5px solid;
+    border-radius: 20px;
+}
+.container{
+    padding: 30px;
+    height: 68vh;
+    display: flex;
+    text-align: center;
+    background-color: black;
+    width: 70%;
+    margin: 70px 175px auto;
+    background-image: url('/covers/cars3.jpg');
+    background-position: center;
+    background-size: cover;
+    
+    border-radius: 50px;
+}
+.bottom{
+    position: sticky;
+    height: 130px;
+    background-color:rgb(34, 34, 34);
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#myProgressBar{
+    width: 80vw;
+    padding-bottom: 20px;
+    cursor: pointer;
+} 
+#back{
+    cursor: pointer;
+}
+#masterPlay{
+    cursor: pointer;
+}
+#forward{
+    cursor: pointer;
+}
+.songItem{
+    height: 45px;
+    display: flex;
+    color: white;
+    background-color: transparent;
+    width: 85%;
+    margin:10px 0;
+    justify-content: space-between;
+    align-items: center;
+}
+.songItem img{
+    border-radius: 30px;
+}
+.timeStamp i{
+    cursor: pointer;
+}
+
+.Playlist{
+     margin-top: 50px;
+}
+footer{
+    display: grid;
+    
+    grid-template-areas: 
+    'table table social'
+    'table table social'
+    'table table social';
+}
+.social{
+    padding-right: 10px;
+    text-align: right;
+    grid-area: social;
+    
+}
+.social i{
+    margin-left: 15px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+table tr{
+    text-align: center;
+    padding-left: 5px;
+    font-family: 'Nunito', sans-serif;
+    color: white;
+}
+table{
+    justify-content: center;
+    text-align: center;
+     grid-area: table;
+}
+td{
+    color: grey;
+    cursor: pointer;
+}
+td:hover{
+    color: white;
+}

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify.com</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nalo"> <img src="logo.png" alt="Spotify" height="40px">
+                <button><img src="right.jpg" alt="left" height="20px"></button>
+                <button><img src="left.jpg" alt="" height="20px"></button>
+            </div>
+
+            <ul>
+                <li><button id="home">Home</button></li>
+                <li><button id="search">Search</button></li>
+                <li><button id="yl">Your Library</button></li>
+                <li><button id="signup">Signup</button></li>
+                <li><button id="Login">Login</button></li>
+            </ul>
+        </nav>
+        <br>
+    </header>
+    <main>
+        <div class="container">
+            <div class="songList">
+                <h1>Best of NCS-No Copyright Sounds </h1>
+                <div class="Playlist">
+                    <div class="songItem">
+                        <img id="cover" alt="1" height="50px">
+                        <span class="name"></span>
+                        <span class="songListPlay"><span class="timeStamp">05:34 <i id="1" class="fa-regular songItemPlay fa-1.5x fa-play" style="color: rgb(255, 255, 255);"></i></span></span>
+                    </div>
+                    <div class="songItem">
+                        <img id="cover" alt="1" height="50px">
+                        <span class="name"></span>
+                        <span class="songListPlay"><span class="timeStamp">06:14 <i id="2" class="fa-regular songItemPlay fa-1.5x fa-play" style="color: rgb(255, 255, 255);"></i></span></span>
+                    </div>
+                    <div class="songItem">
+                        <img id="cover" alt="1" height="50px">
+                        <span class="name"></span>
+                        <span class="songListPlay"><span class="timeStamp">01:45 <i id="3" class="fa-regular songItemPlay fa-1.5x fa-play" style="color: rgb(255, 255, 255);"></i></span></span>
+                    </div>
+                    <div class="songItem">
+                        <img id="cover" alt="1" height="50px">
+                        <span class="name"></span>
+                        <span class="songListPlay"><span class="timeStamp">02:56 <i id="4" class="fa-regular songItemPlay fa-1.5x fa-play" style="color: rgb(255, 255, 255);"></i></span></span>
+                    </div>
+                    <div class="songItem">
+                        <img id="cover" alt="1" height="50px">
+                        <span class="name"></span>
+                        <span class="songListPlay"><span class="timeStamp">04:54 <i id="5" class="fa-regular songItemPlay fa-1.5x fa-play" style="color: rgb(255, 255, 255);"></i></span></span>
+                    </div>
+                    <div class="songItem">
+                        <img id="cover" alt="1" height="50px">
+                        <span class="name"></span>
+                        <span class="songListPlay"><span class="timeStamp">01:44 <i id="6" class="fa-regular songItemPlay fa-1.5x fa-play" style="color: rgb(255, 255, 255);"></i></span></span>
+                    </div>
+                    <div class="songItem">
+                        <img id="cover" alt="1" height="50px">
+                        <span class="name"></span>
+                        <span class="songListPlay"><span class="timeStamp">00:34 <i id="7" class="fa-regular songItemPlay fa-1.5x fa-play" style="color: rgb(255, 255, 255);"></i></span></span>
+                    </div>
+                    <div class="songItem">
+                        <img id="cover" alt="1" height="50px">
+                        <span class="name"></span>
+                        <span class="songListPlay"><span class="timeStamp">02:04 <i id="8" class="fa-regular songItemPlay fa-1.5x fa-play" style="color: rgb(255, 255, 255);"></i></span></span>
+                    </div>
+                    
+                    
+                </div>
+            </div>
+            <div class="songBanner"></div>
+        </div>
+        <div class="bottom">
+            <input type="range" name="range" id="myProgressBar" min="0" max="100" value="0 ">
+            <div id="icon">
+            <i class="fa-regular fa-2x fa-step-backward" id="back" style="color: #ffffff;"></i>
+            <i class="fa-regular fa-2x fa-play" id="masterPlay" style="color: #ffffff;"></i>
+            <i class="fa-regular fa-2x fa-step-forward" id="forward" style="color: #ffffff;"></i>
+            </div>
+        </div>
+    </main>
+    <hr>
+    <footer>
+        
+        <table>
+            <tr>
+                <th><b>Company</b></th>
+                <th><b>Communities </b></th>
+                <th><b>Useful links </b></th>
+            </tr>
+            <tr>
+                <td>About</td>
+                <td>For Artists</td>
+                <td>Support</td>
+            </tr>
+            <tr>
+                <td>Jobs</td>
+                <td>Developers</td>
+                <td>Free Mobile App</td>
+            </tr>
+            <tr>
+                <td>For the Record</td>
+                <td>Advertising</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>Investors</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>vendors</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>Spotify for Work</td>
+                <td></td>
+            </tr>
+        </table>
+        <div class="social">
+            <i class="fa-brands fa-2x fa-instagram" id="insta"  class="so" style="color: #ffffff;"></i>
+            <i class="fa-brands fa-2x fa-facebook" id="face" class="so" style="color: #ffffff;"></i>
+            <i class="fa-brands fa-2x fa-twitter" id="twit" class="so" style="color: #ffffff;"></i>
+        </div>
+    </footer>
+</body>
+<script src="https://kit.fontawesome.com/eb8879b852.js" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+</html>
