@@ -31,16 +31,23 @@ The Spotify clone project aims to replicate some basic functionalities of the po
 - Display a list of songs with album covers and details.
 - Play selected songs.
 - Pause and resume playback.
-- Control volume.
 - Show song progress and provide a seek bar for skipping to specific positions.
-- Display current song information, such as title, artist, and album.
 
 ## Demo
 
 You can view a live demo of this project [here](https://your-demo-link.com).
 
-## Installation
+## Technologies Used
 
-To run the Spotify clone project locally, follow these steps:
+- HTML
+- CSS
+- JavaScript
 
-1. Clone the repository:
+## Resources
+
+- [Spotify Developer](https://developer.spotify.com/) - Spotify's official developer documentation.
+
+## Credits
+
+This project was developed by [Bhavya Patel]
+
