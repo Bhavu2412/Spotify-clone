@@ -5,7 +5,7 @@
  
 </div>
 
-This is a simple Spotify clone project built with HTML, CSS, and JavaScript.
+
 
 ## Description
 
