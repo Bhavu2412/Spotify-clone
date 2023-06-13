@@ -20,13 +20,27 @@
   </p>
 </div>
 
-### Built With
+This is a simple Spotify clone project built with HTML, CSS, and JavaScript.
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+## Description
 
-<i class="fa-brands fa-square-js" style="color: #000000;"></i>
-<i class="fa-brands fa-css3-alt" style="color: #000000;"></i>
-<i class="fa-brands fa-html5" style="color: #000000;"></i>
+The Spotify clone project aims to replicate some basic functionalities of the popular music streaming platform, Spotify. It allows users to browse and play songs from a predefined library.
 
+## Features
 
-<script src="https://kit.fontawesome.com/eb8879b852.js" crossorigin="anonymous"></script>
+- Display a list of songs with album covers and details.
+- Play selected songs.
+- Pause and resume playback.
+- Control volume.
+- Show song progress and provide a seek bar for skipping to specific positions.
+- Display current song information, such as title, artist, and album.
+
+## Demo
+
+You can view a live demo of this project [here](https://your-demo-link.com).
+
+## Installation
+
+To run the Spotify clone project locally, follow these steps:
+
+1. Clone the repository:
