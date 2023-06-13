@@ -2,11 +2,7 @@
 <br />
 <div align="center">
     <img src="logo.png" alt="Logo" height="80">
-  <p align="center">
-    <br />
-    <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
-  </p>
+ 
 </div>
 
 This is a simple Spotify clone project built with HTML, CSS, and JavaScript.
