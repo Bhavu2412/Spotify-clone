@@ -20,7 +20,7 @@ The Spotify clone project aims to replicate some basic functionalities of the po
 
 ## Demo
 
-You can view a live demo of this project [here](https://your-demo-link.com).
+You can view a live demo of this project [here]((https://youtu.be/CBOyfgESwR4)).
 
 ## Technologies Used
 
